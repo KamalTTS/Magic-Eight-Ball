@@ -4,7 +4,7 @@ userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 var userQuestion = 'Will I have a good dream when I sleep?';
 console.log(`The user, ${userName} asked : ${userQuestion}`);
 let randomNumber = Math.floor(Math.random() * 8);
-let eightBall = '1';
+let eightBall = '';
 switch(randomNumber){
   case 0 :
   eightBall = 'It is certain';
